@@ -69,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				0E75B1E8263D950300C68FB0 /* AppDelegate.swift */,
-				0E75B201263E8AAA00C68FB0 /* Extension */,
+				0E75B201263E8AAA00C68FB0 /* Utilites */,
 				0E75B207263E8BCC00C68FB0 /* View */,
 				0E75B204263E8B6200C68FB0 /* Controller */,
 				0E75B1EE263D950300C68FB0 /* Main.storyboard */,
@@ -80,13 +80,13 @@
 			path = SampleRouter;
 			sourceTree = "<group>";
 		};
-		0E75B201263E8AAA00C68FB0 /* Extension */ = {
+		0E75B201263E8AAA00C68FB0 /* Utilites */ = {
 			isa = PBXGroup;
 			children = (
 				0E75B1FC263E8A6000C68FB0 /* Router.swift */,
 				0E75B1FF263E8A8800C68FB0 /* Storyboards.swift */,
 			);
-			path = Extension;
+			path = Utilites;
 			sourceTree = "<group>";
 		};
 		0E75B204263E8B6200C68FB0 /* Controller */ = {
