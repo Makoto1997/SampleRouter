@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -24,7 +24,7 @@
                                 </constraints>
                                 <state key="normal" title="遷移します"/>
                                 <connections>
-                                    <action selector="button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="BAH-O2-jrb"/>
+                                    <action selector="button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="x2M-CR-6yk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -36,10 +36,11 @@
                             <constraint firstItem="bgc-GA-7QR" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="kfI-Ru-awG"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="y4m-t4-CK5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="97" y="94"/>
+            <point key="canvasLocation" x="1005.7971014492755" y="93.75"/>
         </scene>
     </scenes>
     <resources>

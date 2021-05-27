@@ -7,16 +7,16 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+final class ThirdViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    static func makeFromStoryboard() -> ThirdViewController {
+        
+            let vc = UIStoryboard.thirdViewController
+            return vc
+          }
 
     @IBAction func button(_ sender: Any) {
         
-        
+        Router.shared.showFirst(from: self)
     }
 }

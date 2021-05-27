@@ -7,16 +7,18 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+final class FirstViewController: UIViewController {
+    
+    static func makeFromStoryboard() -> FirstViewController {
+        
+        let vc = UIStoryboard.firstViewController
+        return vc
+      }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 
     @IBAction func button(_ sender: Any) {
-        
-        
+
+        Router.shared.showSecond(from: self)
     }
 }
 
