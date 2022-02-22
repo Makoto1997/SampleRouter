@@ -1,1 +1,1 @@
-# SampleRouter
+Storyboardを拡張して遷移処理をまとめたサンプルです。
